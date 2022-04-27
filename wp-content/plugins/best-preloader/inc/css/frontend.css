@@ -1,0 +1,34 @@
+/*
+ * WordPress plugin Best Preloader by Space X-Chimp ( https://www.spacexchimp.com ).
+ *
+ * @package     Best Preloader
+ * @author      Arthur Gareginyan
+ * @link        https://www.spacexchimp.com
+ * @copyright   Copyright (c) 2016-2019 Space X-Chimp. All Rights Reserved.
+ */
+
+
+#preloader-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 99998;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+    filter: alpha(opacity=50);
+    -moz-opacity: .5;
+    -khtml-opacity: .5;
+    opacity: .5;
+}
+
+#preloader-status {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 99999;
+    background-repeat: no-repeat;
+    background-position: center;
+}

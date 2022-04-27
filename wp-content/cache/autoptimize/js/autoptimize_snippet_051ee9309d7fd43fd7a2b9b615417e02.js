@@ -1,0 +1,2 @@
+var seconds=parseInt(spacexchimp_p007_scriptParams["seconds"]);var preloader=jQuery('#preloader');var loaded=false;wait=setTimeout(displayPreloader,(seconds*1000));function displayPreloader(){if(loaded!=true){preloader.show();}}
+jQuery(window).load(function(){loaded=true;preloader.delay(500).fadeOut("slow");});
